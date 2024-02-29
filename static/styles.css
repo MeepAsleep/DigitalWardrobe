@@ -1,0 +1,169 @@
+body {
+    background-image: url("bg.jpg");
+    background-size: cover;
+    font-family: 'Times New  Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+.dark-theme {
+    background-color: #222;
+    color: #fff;
+}
+
+.container {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Upload section styles */
+.upload-section {
+    position: absolute;
+    top: 6%;
+    left: 50px;
+    width: 50%;
+    height: 45%;
+    padding: 60px;
+    background-color: rgba(49, 47, 47, 0.625);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.title {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    color: aqua;
+}
+
+.upload-form {
+    margin-bottom: 30px;
+}
+
+.upload-btn:hover {
+    background-color: #007095;
+}
+
+.upload-submit {
+    background-color: lightblue;
+    color: black;
+    padding: 12px 50px;
+    border: transparent;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.upload-submit:hover {
+    background-color: #ad64f2;
+    box-shadow: 0 0 5px #ad64f2, 0 0 25px #ad64f2, 0 0 50px #ad64f2, 0 0 200px #ad64f2  ;
+}
+
+/* Shuffle section styles */
+.shuffle-section {
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 56%;
+    left: 50px;
+    width: 50%;
+    padding: 20px;
+    background-color: rgba(49, 47, 47, 0.625);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    color: aqua;
+}
+
+.random-outfit-section {
+    margin-bottom: 30px;
+}
+
+.outfit-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.outfit-container .top,
+.outfit-container .pants {
+    width: 100%;
+    text-align: center;
+}
+
+.outfit-container img {
+    width: 270px;
+    height: 360px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s;
+}
+
+.outfit-container:hover img {
+    transform: scale(1.1);
+}
+
+.shuffle-btn {
+    background-color: #f44336;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.shuffle-btn:hover {
+    background-color: #d32f2f;
+    box-shadow: 0 0 5px #d32f2f, 0 0 25px #d32f2f, 0 0 50px #d32f2f, 0 0 200px #d32f2f  ;
+}
+
+/* Display section styles */
+.display-section {
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.1);
+    top: 0;
+    left: 900px;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    color: aqua;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section-title {
+    font-size: 35px;
+    margin-top: 0;
+}
+
+.image-wrapper {
+    width: 300px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    height: 375px;
+    box-shadow: 10px 10px 10px rgb(130, 129, 129);
+}
+
+.image-wrapper img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s;
+}
+
+.image-wrapper:hover img {
+    transform: scale(1.2);
+}
